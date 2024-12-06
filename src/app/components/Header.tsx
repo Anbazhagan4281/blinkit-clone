@@ -22,6 +22,12 @@ const Header = () => {
 
   const cartItems = useSelector((state: any) => state.cart.items);
 
+  // In LocationModal component
+  useEffect(() => {
+    console.log("Location Modal is open", isLocationModalOpen);
+  }, [isLocationModalOpen]);
+
+
   // Function to fetch geolocation
   const getGeolocation = () => {
     if ("geolocation" in navigator) {
@@ -62,11 +68,14 @@ const Header = () => {
       } else {
         setLocation(null); // Location not found
         setLocationError("Unable to find your location.");
+        setIsLocationModalOpen(true);
+
       }
     } catch (error) {
       console.error("Error fetching location:", error);
       setLocation(null); // Error fetching location
       setLocationError("Unable to retrieve your location. Please enter it manually.");
+      setIsLocationModalOpen(true);
     }
   };
 
@@ -105,7 +114,7 @@ const Header = () => {
         <div className="flex md:hidden w-full flex-col space-y-2">
           <div className="flex justify-between items-center">
             <div className="flex flex-col">
-              <div className="text-lg font-extrabold text-gray-700">Delivery in 0 mins</div>
+              <div className="text-lg font-extrabold text-gray-700">Delivery in 0 mins {isLocationModalOpen}</div>
               <div className="text-sm text-gray-500">({location || "location"})</div>
             </div>
 
@@ -130,7 +139,7 @@ const Header = () => {
           <div className="border-l-[1px] h-16"></div>
 
           <div>
-            <div className="text-lg font-bold text-gray-700">Delivery in 0 mins</div>
+            <div className="text-lg font-bold text-gray-700">Delivery in 0 mins {isLocationModalOpen}</div>
             <div className="text-sm text-gray-500">({location || "location"})</div>
           </div>
 
@@ -177,6 +186,8 @@ const Header = () => {
           setManualLocation={setManualLocation}
           handleManualLocationSubmit={handleManualLocationSubmit}
           closeModal={closeModal}
+          setIsLocationModalOpen={setIsLocationModalOpen}
+          
         />
       )}
 

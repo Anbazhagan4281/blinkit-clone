@@ -5,6 +5,7 @@ interface LocationModalProps {
   setManualLocation: React.Dispatch<React.SetStateAction<string>>;
   handleManualLocationSubmit: () => void;
   closeModal: (e: React.MouseEvent) => void;
+  setIsLocationModalOpen(bool: boolean): void;
 }
 
 const LocationModal: FC<LocationModalProps> = ({
@@ -12,12 +13,13 @@ const LocationModal: FC<LocationModalProps> = ({
   setManualLocation,
   handleManualLocationSubmit,
   closeModal,
+  setIsLocationModalOpen,
 }) => {
   return (
     <div
       id="modal-backdrop"
       onClick={closeModal}
-      className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
+      className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-20"
     >
       <div
         onClick={(e) => e.stopPropagation()} // Prevent modal close when clicking inside modal
@@ -34,19 +36,13 @@ const LocationModal: FC<LocationModalProps> = ({
             className="border rounded-lg px-4 py-2 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-green-600"
           />
           <button
-            onClick={handleManualLocationSubmit}
+            onClick={() => {
+				handleManualLocationSubmit()
+				setIsLocationModalOpen(false)
+			}}
             className="bg-green-600 text-white px-4 py-2 rounded-lg w-full hover:bg-green-700"
           >
             Submit Location
-          </button>
-        </div>
-
-        <div className="text-center mt-4">
-          <button
-            onClick={() => closeModal(new MouseEvent("click"))}
-            className="bg-gray-600 text-white px-4 py-2 rounded-lg w-full hover:bg-gray-700"
-          >
-            Close
           </button>
         </div>
       </div>
