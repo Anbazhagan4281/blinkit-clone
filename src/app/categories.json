@@ -1,0 +1,332 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Groceries",
+      "image": "https://via.placeholder.com/300x200?text=Groceries",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Dairy",
+          "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142",
+          "items": [
+            { 
+              "id": 1,
+              "name": "Milk",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142",
+              "weight": "1L",
+              "price": "1.99"
+            },
+            { 
+              "id": 2,
+              "name": "Cheese",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/3ddcf321-04e9-4145-826f-553339b01ea2.jpg?ts=1727417441",
+              "weight": "200g",
+              "price": "3.49"
+            },
+            { 
+              "id": 3,
+              "name": "Butter",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314",
+              "weight": "250g",
+              "price": "2.79"
+            },
+            { 
+              "id": 4,
+              "name": "Yogurt",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ba929c05-aba2-4838-b674-e2072089022b.jpg?ts=1712325614",
+              "weight": "500g",
+              "price": "1.59"
+            },
+			 { 
+              "id": 5,
+              "name": "Harvest Gold - White Bread",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/a9b8e4d0-62ae-4a55-b0f7-c07d16a09326.jpg?ts=1707564212",
+              "weight": "1L",
+              "price": "1.99"
+            },
+            { 
+              "id": 6,
+              "name": "Amul Masti Curd",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142",
+              "weight": "200g",
+              "price": "3.49"
+            },
+            { 
+              "id": 7,
+              "name": "Amul Taaza Toned Fresh Milk",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/3ddcf321-04e9-4145-826f-553339b01ea2.jpg?ts=1727417441",
+              "weight": "250g",
+              "price": "2.79"
+            },
+            { 
+              "id": 8,
+              "name": "Table White Eggs (6 pieces)",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314",
+              "weight": "500g",
+              "price": "1.59"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Snacks & Munchies",
+          "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/033d8394-849a-4a07-a712-79a50df9bd51.jpg?ts=1723098570",
+          "items": [
+            { 
+              "id": 1,
+              "name": "Orion Turtle Masala Corn Chips",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/033d8394-849a-4a07-a712-79a50df9bd51.jpg?ts=1723098570",
+              "weight": "1kg",
+              "price": "2.49"
+            },
+            { 
+              "id": 2,
+              "name": "Kettle Studio Potato Chips - Rock Sea Salt & English Vinegar",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/bebe562d-c417-465b-9b12-4d612f48d08a.jpg?ts=1723098763",
+              "weight": "1kg",
+              "price": "1.99"
+            },
+            { 
+              "id": 3,
+              "name": "Kettle Studio Potato Chips - Sharp Jalapenos & Cream Cheese",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/de9957ab-7045-4f11-90fa-57117b5e5a00.jpg?ts=1724850870",
+              "weight": "1kg",
+              "price": "3.19"
+            },
+            { 
+              "id": 4,
+              "name": "Kettle Studio Potato Chips - Crushed Peprika with Exotic Spices",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/c23856bf-cdf5-475d-9545-023bff8694d3.jpg?ts=1723100848",
+              "weight": "500g",
+              "price": "4.29"
+            },
+             { 
+              "id": 5,
+              "name": "Kettle Studio Potato Chips - Himalyan Pink",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/033d8394-849a-4a07-a712-79a50df9bd51.jpg?ts=1723098570",
+              "weight": "1kg",
+              "price": "2.49"
+            },
+            { 
+              "id": 6,
+              "name": "Kettle Studio Potato Chips - Mature Cheddar & Red Onions",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/bebe562d-c417-465b-9b12-4d612f48d08a.jpg?ts=1723098763",
+              "weight": "1kg",
+              "price": "1.99"
+            },
+            { 
+              "id": 7,
+              "name": "Nongshim Shrimp Flavoured Hot & Spicy Crackers Chips",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/de9957ab-7045-4f11-90fa-57117b5e5a00.jpg?ts=1724850870",
+              "weight": "1kg",
+              "price": "3.19"
+            },
+            { 
+              "id": 8,
+              "name": "Kettle Studio Gourmet Potato Chips Spiced with Tabasco Sauce Flavour",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/c23856bf-cdf5-475d-9545-023bff8694d3.jpg?ts=1723100848",
+              "weight": "500g",
+              "price": "4.29"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Hookah",
+          "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/535601a.jpg?ts=1698309253",
+          "items": [
+            { 
+              "id": 1,
+              "name": "Coconut Hookah Coal Cubes by Stash Pro",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/535601a.jpg?ts=1698309253",
+              "weight": "Pack of 30",
+              "price": "25.99"
+            },
+            { 
+              "id": 2,
+              "name": "Kiwi Herbal Hookah Flavor (Tobacco Free) by Soex",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/480933a.jpg?ts=1688628164",
+              "weight": "250ml",
+              "price": "4.49"
+            },
+            { 
+              "id": 3,
+              "name": "Premium Silver Hookah Foil by Rhythm Imports",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/540986a.jpg",
+              "weight": "200ml",
+              "price": "3.29"
+            },
+            { 
+              "id": 4,
+              "name": "Chief Commissioner Herbal Hookah Flavor (Tobacco Free) by Soex",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/480928a.jpg?ts=1687523762",
+              "weight": "80 wipes",
+              "price": "2.99"
+            },
+             { 
+              "id": 5,
+              "name": "Brain Freeze Up Herbal Hookah Flavor (Tobacco Free) by Soex",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/535601a.jpg?ts=1698309253",
+              "weight": "Pack of 30",
+              "price": "25.99"
+            },
+            { 
+              "id": 6,
+              "name": "Hookah Premium Plastic Filters by Rhythm Imports",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/480933a.jpg?ts=1688628164",
+              "weight": "250ml",
+              "price": "4.49"
+            },
+            { 
+              "id": 7,
+              "name": "Paan Raas Herbal Hookah Flavor (Tobacco Free) by Soex",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/540986a.jpg",
+              "weight": "200ml",
+              "price": "3.29"
+            },
+            { 
+              "id": 8,
+              "name": "Iron Hookah Tong by Smokey Lust",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/480928a.jpg?ts=1687523762",
+              "weight": "80 wipes",
+              "price": "2.99"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Mouth fresheners",
+          "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/363211a.jpg?ts=1690813897",
+          "items": [
+            { 
+              "id": 1,
+              "name": "Impact Sugar Free Mint Candy (Fresh Mints)",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/363211a.jpg?ts=1690813897",
+              "weight": "20 tablets",
+              "price": "5.99"
+            },
+            { 
+              "id": 2,
+              "name": "paper boat Aam Papad Fruit Bar",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/395091a.jpg?ts=1686558551",
+              "weight": "100 tablets",
+              "price": "8.99"
+            },
+            { 
+              "id": 3,
+              "name": "Kettle Studio Potato Chips - Sharp Jalapeno",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/d02799db-82c5-47f8-acd3-5c4844f3aa29.jpg?ts=1723200654",
+              "weight": "10 capsules",
+              "price": "6.49"
+            },
+            { 
+              "id": 4,
+              "name": "GO DESi Meetha Paan Desi Mints",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/b06b8269-b0f2-4887-8106-f49d5695fc12.jpg?ts=1720016904",
+              "weight": "20 tablets",
+              "price": "12.99"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Cold Drinks & Juices",
+          "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e723544a-a090-418a-927c-ff1c9aece278.jpg?ts=1712986639",
+          "items": [
+            { 
+              "id": 1,
+              "name": "Mother Dairy Probiotic Tadka Salted Buttermilk",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/6eca8763-6702-4d9d-bf5f-d760d7957875.jpg?ts=1722947342",
+              "weight": "500ml",
+              "price": "2.99"
+            },
+            { 
+              "id": 2,
+              "name": "Phab Classic Chocolate Protein Milkshake",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/fec89b7b-8a13-477e-b750-7a52e82828a0.jpg?ts=1717747523",
+              "weight": "1L",
+              "price": "3.49"
+            },
+            { 
+              "id": 3,
+              "name": "Coca-Cola Soft Drink (750 ml) - Pack of 2",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/cfeaa68b-2ce1-4c1e-95c5-450bbb9bb281.jpg?ts=1708591243",
+              "weight": "1.5kg",
+              "price": "6.79"
+            },
+            { 
+              "id": 4,
+              "name": "Bisleri Packaged Water",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/cfeaa68b-2ce1-4c1e-95c5-450bbb9bb281.jpg?ts=1708591243",
+              "weight": "500ml",
+              "price": "4.19"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Candies & Gums",
+          "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b8760532-ff5b-4451-aacf-8037ec6da880.jpg?ts=1732624518",
+          "items": [
+            { 
+              "id": 1,
+              "name": "Chupa Chups Sour Bites Mixed Fruit Candy",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b8760532-ff5b-4451-aacf-8037ec6da880.jpg?ts=1732624518",
+              "weight": "250ml",
+              "price": "4.49"
+            },
+            { 
+              "id": 2,
+              "name": "Parle Melody Chocolaty Candy",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/110755a.jpg?ts=1697793137",
+              "weight": "100g",
+              "price": "2.79"
+            },
+            { 
+              "id": 3,
+              "name": "Parle Kismi Elaichi Toffee/ Candy",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/19827a.jpg?ts=1697793133",
+              "weight": "200ml",
+              "price": "3.59"
+            },
+            { 
+              "id": 4,
+              "name": "Pulse Kachcha Aam / Mango Candy",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/aa4c477e-08d8-479d-be21-76e061e13c0d.jpg?ts=1718169096",
+              "weight": "150ml",
+              "price": "3.99"
+            },
+            { 
+              "id": 5,
+              "name": "Fruittella Orange Flavour Chewy Toffee",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b8760532-ff5b-4451-aacf-8037ec6da880.jpg?ts=1732624518",
+              "weight": "250ml",
+              "price": "4.49"
+            },
+            { 
+              "id": 6,
+              "name": "Chupa Chups Sour Belt Mixed Fruit Candy",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/110755a.jpg?ts=1697793137",
+              "weight": "100g",
+              "price": "2.79"
+            },
+            { 
+              "id": 7,
+              "name": "Orbit Mixed Fruit Flavour Chewing Gum",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/19827a.jpg?ts=1697793133",
+              "weight": "200ml",
+              "price": "3.59"
+            },
+            { 
+              "id": 8,
+              "name": "Sour Punk Apple Candy",
+              "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/aa4c477e-08d8-479d-be21-76e061e13c0d.jpg?ts=1718169096",
+              "weight": "150ml",
+              "price": "3.99"
+            }
+          ]
+        }
+	  ]
+	}
+]}
